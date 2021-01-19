@@ -20,8 +20,30 @@
         margin: auto;
       }
 
-      .prezzo {
-        float: right;
+      .price {
+        color: transparent;
+        text-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+        text-align: right;
+        user-select: none;
+      }
+
+      table {
+          width: 100%;
+          border-spacing: 0;
+      }
+
+      td {
+        font-size: 1.4em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+      }
+
+      .riga-sopra td {
+          border-top: 2px solid lightgray;
+      }
+
+      .riga-sopra-spessa td {
+          border-top: 2px solid lightgray;
       }
     </style>
   </head>
@@ -32,29 +54,30 @@
         src="https://download.logo.wine/logo/Disney%2B/Disney%2B-Logo.wine.png"
       />
 
-
       <table>
-          <tr>
-              <td>Disney Plus Yearly - IT - Web</td>
-              <td>59,17 €</td>
-          </tr>
-          <tr>
-              <td>IVA</td>
-              <td>22,000%<br/>10,82 €</td>
-          </tr>
-          <tr>
-              <td>Importo netto</td>
-              <td>59,17 €</td>
-          </tr>
-          <tr>
-              <td>Totale IVA</td>
-              <td>10,82 €</td>
-          </tr>
-          <tr>
-              <td>Totale ordine</td>
-              <td>69.99 €</td>
-          </tr>
+        <tr>
+          <td>Disney Plus Yearly - IT - Web</td>
+          <td class="price">Z3Vhc €</td>
+        </tr>
+        <tr>
+          <td>IVA</td>
+          <td class="price">mRhI %<br />GxhI €</td>
+        </tr>
+        <tr class="riga-sopra">
+          <td>Importo netto</td>
+          <td class="price">HR1YS €</td>
+        </tr>
+        <tr>
+          <td>Totale IVA</td>
+          <td class="price">BsaXN €</td>
+        </tr>
+        <tr class="riga-sopra-spessa">
+          <td>Totale ordine</td>
+          <td class="price">0YQ== €</td>
+        </tr>
       </table>
     </main>
   </body>
 </html>
+
+<!-- RGEgTmljb2zDsiBlIENhcmxv -->
